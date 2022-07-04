@@ -24,8 +24,10 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 25px 15px;
-    background-color: darkslategray;;
-    color: aliceblue;
+    background-color: #fdfcfc;
+    color: rgb(40, 52, 62);
+    box-shadow: 1px 1px 50px #eae1e1;
+
 }
 ul{
     display: flex;
@@ -124,3 +126,43 @@ img{
     text-align: justify;
 }
 
+/* Subscriber Section */
+
+.subscriber-section{
+    margin: 100px 15% 50px 15%;
+    border-radius: 5px;
+    height: 200px;
+    box-shadow: 5px 5px 20px gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15%;   
+   text-align: center;
+}
+small{
+    color: gray;
+}
+
+        /* footer */
+
+footer{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.orange-text{
+    color: orange;
+    word-spacing: 5px;
+   
+    
+}
+
+.gray-text{
+    color: gray;
+}
+footer h3{
+    font-size: 22px;
+}
